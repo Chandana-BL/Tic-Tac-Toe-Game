@@ -1,0 +1,81 @@
+*{
+    margin: 0;/* this * seta the entire documents properties as mentioned*/
+    padding: 0;
+}
+body{
+    background-color:darkcyan;
+    text-align: center;
+}
+
+.message-container{
+    height: 100vmin;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+}
+#message{
+    color: ghostwhite;
+    font-size: 6vmin;
+}
+
+#new-game{
+    border: none;
+    border-radius:0.5rem ;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    
+
+}
+h1{
+    font-size: 3rem;
+}
+
+.container{
+   height: 70vh;
+   display: flex;
+   
+   justify-content: center;
+   align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5vmin;
+ }
+   
+.box{
+    height: 16vh;
+    width:16vh ;
+    border-radius: 1.5rem;
+    /* margin: 2px; */
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3) ;
+    font-size: 8vmin;
+    background-color: lightblue;
+    color: black;
+
+}
+
+#reset{
+    
+    border: none;
+    border-radius:0.5rem ;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+}
+.hide{
+    display: none;
+}
